@@ -1,0 +1,73 @@
+.Modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent black background */
+    backdrop-filter: blur(8px); 
+}
+
+.like,
+.dislike {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #e4ddf1; /* Set your desired background color */
+    border: none;
+    border-radius: 10px;
+    width:766px;
+}
+
+
+
+.heading{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.heading img{
+    width:40px;
+    height:42px;
+    margin-bottom: 10px;
+}
+
+.textArea{
+    margin-bottom: 10px;
+    min-width:716px;
+    min-height:187px;
+}
+
+.star{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.bigger-star {
+    font-size: 25px; /* Adjust the size as needed */
+    cursor: pointer;
+    transition:color 0.3s;
+}
+
+.bigger-star.black{
+    color: black;
+}
+
+.bigger-star.white{
+    color: black;
+}
+
+.Rate{
+    text-align: center;
+}
